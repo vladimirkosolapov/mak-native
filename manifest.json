@@ -3,8 +3,8 @@
    "description":"A universal notepad.",
    "version":"0.4.4",
    "manifest_version":2,
-   "minimum_chrome_version": "72",
-   "offline_enabled": true,
+   "minimum_chrome_version":"72",
+   "offline_enabled":true,
    "icons":{
       "512":"icon.png"
    },
@@ -21,10 +21,31 @@
    "permissions":[
       "webview",
       "fullscreen",
-	   "storage", "unlimitedStorage", {
-            "fileSystem": ["write", "retainEntries", "directory"]
-        },
-        "clipboardWrite",
-        "clipboardRead"
-   ]
+      "storage",
+      "unlimitedStorage",
+      {
+         "fileSystem":[
+            "write",
+            "retainEntries",
+            "directory"
+         ]
+      },
+      "clipboardWrite",
+      "clipboardRead"
+   ],
+   "file_handlers":{
+      "text":{
+         "types":[
+            "text/*",
+            "text/markdown",
+            "text/x-markdown"
+         ],
+         "extensions":[
+            "markdown",
+            "md",
+            "text",
+            "txt"
+         ]
+      }
+   }
 }
