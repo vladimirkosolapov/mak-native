@@ -6,7 +6,7 @@
 
 ## The App
 [Download latest release](https://github.com/vladimirkosolapov/mak-native/releases)  
-[Web version](https://github.com/inns/mak)
+[Web version](https://mak.ink)
 
 For detailed documentation and live demos, please visit https://github.com/inns/mak and https://inns.studio/mak.  
 If you have any suggestions or feedbacks, feel free to open an issue.
@@ -36,5 +36,5 @@ Most people would usually install by drag «.crx» file to a browser window, but
 
 ## Acknowledgement
 
-Mak<sup>native</sup> based on [Mak](https://mak.ink) by [Shu Ding](https://shud.in).  
-Chrome OS app created by [Vladimir Kosolapov](https://vladimirkosolapov.com).
+Mak<sup>native</sup> based on [Mak](https://mak.ink) by [Shu Ding](https://github.com/shuding).  
+Chrome OS app created by [Vladimir Kosolapov](https://github.com/vladimirkosolapov).
